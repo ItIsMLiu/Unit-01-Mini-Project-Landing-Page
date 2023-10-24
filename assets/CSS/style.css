@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    font-family: Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #5A554E;
+    background-color: white;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 80px;
+    background: #EBE9E4;
+}
+
+h1 {
+    margin-left: 50px;
+    display: inline-block;
+}
+
+span {
+    color: #AD847A;
+}
+
+nav {
+    margin-right: 50px;
+    padding-top: 15px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: #5A554E;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    font-size: 22px;
+}
+
+main {
+    padding-top: 60px;
+    margin: 0;
+}
+
+figure {
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+figcaption{
+    font-size: 25px;
+    text-align: center;
+}
+
+section {
+    padding: 80px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 80%;
+    
+}
+
+h2 {
+    line-height: 150%;
+}
+
+p {
+    width: 50%;
+}
+
+article{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    line-height: 150%;
+}
+
+img {
+    width: 65%;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+div {
+    width: 30%;
+    display: inline-block;
+    float: right;
+    padding-top: 100px;
+}
+
+h4 {
+    color: #AD847A;
+}
+
+footer {
+    text-align: center;
+    color: #EBE9E4;
+    background: #5A554E;
+    padding: 120px;
+}
+
+#contact {
+    padding-top: 0;
+}
+
+label{
+    line-height: 200%;
+    font-weight: bold;
+}
+
+input {
+    height: 20px;
+    margin: 5px;
+    width: 300px;
+}
+
+#lname {
+    margin-left: 7px; 
+}
+
+#email {
+    margin-left: 39px;
+}
+
+#message {
+    margin-left: 18px;
+    height: 100px;
+}
+
+.contact-p{
+width: 26%;
+}
+
+input[type=send] {
+    margin-left: 82px;
+    width: 300px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    background: #AD847A;
+    color: #EBE9E4;
+    border: none;
+}
+
+input[type=send]:hover {
+    background: #8a6961;
+}
