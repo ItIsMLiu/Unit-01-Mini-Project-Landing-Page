@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    font-family: Calibri;
+    font: 16px;
 }
 
 body {
@@ -167,4 +168,5 @@ input[type=send] {
 
 input[type=send]:hover {
     background: #8a6961;
+    font-size: 16px;
 }
