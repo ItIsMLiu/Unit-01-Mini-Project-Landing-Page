@@ -9,6 +9,7 @@
 
 <body>
     <header>
+        <img class="logo" src="./assets/images/just-logo.png" alt="logo">
         <h1><span>RenZen</span>Architects</h1>
         <nav>
             <ul>
@@ -26,19 +27,22 @@
             <br>
             Your Vision, Our Expertise
         </figcaption>
+        
         <section id="projects">
-            <h2>Projects</h2>
-            <p>Dive into our diverse portfolio of architectural excellence. Explore the stories behind our projects, from concept to creation. Witness the transformative power of architecture through our work.</p>
+            <div class="section-intro">
+                <h2>Projects</h2>
+                <p>Dive into our diverse portfolio of architectural excellence. Explore the stories behind our projects, from concept to creation. Witness the transformative power of architecture through our work.</p>
+            </div>
             <article>
-                <div>
+                <div class="project-text">
                     <h3>Wardrobe Design</h3>
                     <h4>Residential | Private Homes</h4>
                     <p>In Newport, we were honored to collaborate with a client who entrusted us to craft bespoke wardrobes, storage units, and shoe shelves for their exquisite five-bedroom luxury home. Explore this remarkable project here.</p>
                 </div>
-                <img src="./assets/images/2.png" alt="wardrobe design">
+                <img class="project" src="./assets/images/2.png" alt="wardrobe design">
             </article>
             <article>
-                <div>
+                <div class="project-text">
                     <h3>Garage Conversion</h3>
                     <h4>Residential | Private Homes</h4>
                     <p>Embark on an exhilarating garage conversion journey, where the transformation is mostly internal. Explore this exciting project in detail.</p>
@@ -49,17 +53,28 @@
 
         <section id="contact">
             <h2>Contact Form</h2>
-            <p class="contact-p">Contact us to discuss your project! Don't hesitate to send us a message using the form below. We usually respond within 1 to 12 hours, but occasionally it may take up to 24 hours. Thank you for your interest!</p>
+            <p>Contact us to discuss your project! Don't hesitate to send us a message using the form below. We usually respond within 1 to 12 hours, but occasionally it may take up to 24 hours. Thank you for your interest!</p>
             <form>
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname"><br>
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email"><br>
-                <label for="message">Message:</label>
-                <input type="text" id="message" name="message"><br>
-                <input type="send" value="Send">
+                <div class="row">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname"><br>
+                </div>
+                <div class="row">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname"><br>
+                </div>
+                <div class="row">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br>
+                </div>
+                <div class="row">
+                    <label for="message">Message:</label>
+                    <input type="text" id="message" name="message"><br>
+                </div>
+                <div class="row">
+                    <label for="blank"></label>
+                    <button>Send</button>
+                </div>
             </form>
         </section>
     </main>
